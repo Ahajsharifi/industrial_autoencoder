@@ -119,7 +119,7 @@ Reconstructed Image
 
 Original image vs reconstructed image.
 
-![Reconstruction](outputs/baseline/comparison.png)
+![Reconstruction](assets/readme/comparison.png)
 ---
 
 
@@ -129,7 +129,7 @@ Original image vs reconstructed image.
 
 Histogram of reconstruction errors for normal and defective samples.
 
-![Anomaly](outputs/baseline/histogram.png)
+![Anomaly](assets/readme/histogram.png)
 
 ---
 
