@@ -1,0 +1,100 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+env/
+venv/
+.venv/
+
+
+# =====================
+# Jupyter Notebook
+# =====================
+.ipynb_checkpoints/
+
+
+# =====================
+# Dataset
+# =====================
+data/mvtec/
+data/*.tar.xz
+data/*.zip
+*.tar
+*.tar.gz
+
+
+# =====================
+# Model Checkpoints
+# =====================
+*.pth
+*.pt
+*.ckpt
+
+checkpoints/
+weights/
+models/checkpoints/
+
+
+# =====================
+# Outputs
+# =====================
+outputs/
+runs/
+logs/
+
+*.log
+
+
+# =====================
+# Experiment Results
+# =====================
+results/
+experiments/*/outputs/
+experiments/*/logs/
+
+
+# =====================
+# Images Generated During Testing
+# =====================
+*.png
+*.jpg
+*.jpeg
+
+# اگر خواستی بعضی تصاویر مقاله را نگه داری:
+# !docs/images/
+
+
+# =====================
+# IDE
+# =====================
+.vscode/
+.idea/
+
+*.swp
+*.swo
+
+
+# =====================
+# OS
+# =====================
+.DS_Store
+Thumbs.db
+
+
+# =====================
+# Environment
+# =====================
+.env
+.env.*
+
+
+# =====================
+# Python Packaging
+# =====================
+*.egg-info/
+dist/
+build/
