@@ -5,23 +5,13 @@ from models.blocks import ConvBlock
 
 class Encoder(nn.Module):
 
-    def __init__(self):
-        super().__init__()
-
-        self.features = nn.Sequential(
-
-            ConvBlock(3, 32),
-            nn.MaxPool2d(2),
-
-            ConvBlock(32, 64),
-            nn.MaxPool2d(2),
-
-            ConvBlock(64, 128),
-            nn.MaxPool2d(2),
-
-            ConvBlock(128, 256),
-            nn.MaxPool2d(2),
-        )
-
     def forward(self, x):
-        return self.features(x)
+
+        e1 = self.encoder1(x)
+        e2 = self.encoder2(e1)
+        e3 = self.encoder3(e2)
+        e4 = self.encoder4(e3)
+
+        bottleneck = self.pool(e4)
+
+        return bottleneck, [e1, e2, e3, e4]
