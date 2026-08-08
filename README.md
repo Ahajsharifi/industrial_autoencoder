@@ -355,11 +355,11 @@ Version 2 therefore performs worse than the baseline for the current anomaly-det
 
 ### Reconstruction Error Distribution
 
-![Version 2 Histogram](../../outputs/v2/histogram.png)
+![Version 2 Histogram](assets/readme/comparison_v2.png)
 
 ### Threshold Analysis
 
-![Version 2 Threshold Analysis](../../outputs/v2/threshold_analysis.png)
+![Version 2 Threshold Analysis](assets/readme/histogram_v2.png)
 
 ### Example Scores
 
