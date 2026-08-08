@@ -1,0 +1,16 @@
+category,image_id,label,score
+Best Good,64,Good,0.007631688844412565
+Best Good,74,Good,0.007665157318115234
+Best Good,41,Good,0.007677857764065266
+Best Good,14,Good,0.007681151386350393
+Best Good,19,Good,0.007682080380618572
+Worst Defective,79,Defective,0.009100861847400665
+Worst Defective,2,Defective,0.008631213568150997
+Worst Defective,70,Defective,0.008565213531255722
+Worst Defective,34,Defective,0.008540019392967224
+Worst Defective,17,Defective,0.008295448496937752
+Borderline,30,Defective,0.007807375397533178
+Borderline,27,Defective,0.007810228504240513
+Borderline,18,Good,0.00781257450580597
+Borderline,73,Defective,0.00781338196247816
+Borderline,51,Good,0.007797642610967159

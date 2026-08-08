@@ -1,10 +1,26 @@
 import torch
 
 
-def load_model(model, checkpoint_path, device):
+# def load_model(model, checkpoint_path, device):
+
+#     checkpoint = torch.load(
+#         checkpoint_path,
+#         map_location=device
+#     )
+
+#     model.load_state_dict(
+#         checkpoint["model_state_dict"]
+#     )
+
+#     model.to(device)
+
+#     model.eval()
+
+#     return model
+def load_model(model, path, device):
 
     checkpoint = torch.load(
-        checkpoint_path,
+        path,
         map_location=device
     )
 
@@ -13,7 +29,6 @@ def load_model(model, checkpoint_path, device):
     )
 
     model.to(device)
-
     model.eval()
 
     return model

@@ -12,11 +12,13 @@ class AutoEncoder(nn.Module):
         self.encoder = Encoder()
         self.decoder = Decoder()
 
-
     def forward(self, x):
 
-        latent = self.encoder(x)
+        bottleneck, skips = self.encoder(x)
 
-        reconstructed = self.decoder(latent)
+        reconstructed = self.decoder(
+            bottleneck,
+            skips
+        )
 
         return reconstructed
